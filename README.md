@@ -3,6 +3,7 @@
 It works based on two lists of tuples that follows this format:
 
 ```[(Directory researched, [directories in the researched directory])]```
+
 ```[(Directory researched, [files in the researched directory])]```
 
 It starts from the current working directory ((where the application is located)), and reach all the folders and their files, we do this at the ```resources.py```
